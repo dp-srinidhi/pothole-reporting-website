@@ -8,13 +8,12 @@ The application uses the MERN stack (MongoDB, Express.js, React.js, Node.js) wit
 Features:
 
 🌐 Live map updates for reported potholes
-
 📍 Users can submit new potholes with location and severity
 🗃️ MongoDB database to store reports
 🔄 Real-time viewing of all reported potholes
  
 Tech Stack:
 
-Frontend: React.js, Leaflet.js, Axios
-Backend: Node.js, Express.js
-Database: MongoDB (Atlas or local)
+-Frontend: React.js, Leaflet.js, Axios 
+-Backend: Node.js, Express.js 
+-Database: MongoDB (Atlas or local)
