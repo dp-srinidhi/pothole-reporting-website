@@ -24,12 +24,24 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // MongoDB connection
-mongoose.connect("mongodb://127.0.0.1:27017/potholeDB")
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.error("MongoDB connection error:", err));
+import mongoose from "mongoose";
 
-// Model
-const Potholes = require("./models/Pothole");
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("MongoDB connected");
+  } catch (error) {
+    console.error("MongoDB connection error:", error);
+    process.exit(1);
+  }
+};
+
+export default connectDB;
+import dotenv from "dotenv";
+dotenv.config();
+
+connectDB();
+
 
 app.get("/api/potholes", async (req, res) => {
   try {
