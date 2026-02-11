@@ -1,19 +1,40 @@
-Pothole Reporting website (MERN Stack)
+# 🛣️ Pothole Reporting Website (MERN Stack)
 
-Description:
-A full-stack web application for reporting and tracking potholes in real-time.
-Users can mark potholes on an interactive map, specify severity, and see live updates as new potholes are reported.
-The application uses the MERN stack (MongoDB, Express.js, React.js, Node.js) with Leaflet.js for map visualization.
+## 📌 Project Overview
 
-Features:
+The **Pothole Reporting Website** is a full-stack web application that allows users to report and track potholes in real-time.  
 
-🌐 Live map updates for reported potholes
-📍 Users can submit new potholes with location and severity
-🗃️ MongoDB database to store reports
-🔄 Real-time viewing of all reported potholes
- 
-Tech Stack:
+Users can mark potholes directly on an interactive map, specify the severity level, and instantly view all reported potholes. The application ensures efficient road issue reporting and centralized data storage using the MERN stack.
 
--Frontend: React.js, Leaflet.js, Axios 
--Backend: Node.js, Express.js 
--Database: MongoDB (Atlas or local)
+---
+
+## 🚀 Features
+
+- 🌐 Live map updates for reported potholes  
+- 📍 Add new potholes by clicking on the map  
+- ⚠️ Select severity level (Low / Medium / High)  
+- 🗃️ MongoDB database for persistent storage  
+- 🔄 Real-time viewing of all reported potholes  
+- 📡 REST API integration between frontend and backend  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js  
+- Leaflet.js (Map visualization)  
+- Axios (API calls)  
+- CSS  
+
+### Backend
+- Node.js  
+- Express.js  
+
+### Database
+- MongoDB (Local or MongoDB Atlas)
+
+---
+
+## 📂 Project Structure
+
