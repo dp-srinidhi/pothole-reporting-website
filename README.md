@@ -34,7 +34,4 @@ Users can mark potholes directly on an interactive map, specify the severity lev
 ### Database
 - MongoDB (Local or MongoDB Atlas)
 
----
-
-## 📂 Project Structure
 
